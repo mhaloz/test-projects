@@ -1,23 +1,26 @@
 ---
-name: Solicitud
-about: Propón una mejora o funcionalidad
-title: "[Solicitud] "
-labels: ""
-assignees: ""
+name: Solicitud de infraestructura
+about: Nueva solicitud de infraestructura o presupuesto
+title: "[SOLICITUD] "
+labels: ["solicitud"]
+assignees: []
 ---
 
-## ¿Qué necesitas?
+## Descripción
+<!-- Qué se necesita y por qué -->
 
-Describe claramente la mejora o funcionalidad que propones.
+## Alcance
+<!-- Qué incluye y qué no incluye esta solicitud -->
 
-## ¿Qué problema resolvería?
+## Recursos estimados
+<!-- Servicios, cantidades, ambientes (Dev, QA, Prod) -->
 
-Explica el problema o necesidad que te lleva a proponer esta solicitud.
+## Presupuesto estimado
+<!-- Monto aproximado y moneda -->
 
-## ¿Cómo debería funcionar?
+## Criterios de aceptación
+- [ ]
+- [ ]
 
-Describe el comportamiento esperado y, si corresponde, los criterios para considerar esta solicitud completada.
-
-## Contexto adicional
-
-Añade ejemplos, referencias u otra información que ayude a entender la solicitud.
+## Notas adicionales
+<!-- Dependencias, riesgos, referencias -->
