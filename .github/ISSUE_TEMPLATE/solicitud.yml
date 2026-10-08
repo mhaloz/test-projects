@@ -1,0 +1,66 @@
+name: Solicitud de infraestructura
+description: Nueva solicitud de infraestructura o presupuesto
+title: "[SOLICITUD] "
+labels: ["solicitud"]
+body:
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      description: Qué se necesita y por qué
+    validations:
+      required: true
+
+  - type: dropdown
+    id: complejidad
+    attributes:
+      label: Complejidad
+      description: Elige el tamaño estimado de la solicitud
+      options:
+        - S
+        - M
+        - L
+        - XL
+    validations:
+      required: true
+
+  - type: textarea
+    id: alcance
+    attributes:
+      label: Alcance
+      description: Qué incluye y qué no incluye esta solicitud
+    validations:
+      required: false
+
+  - type: textarea
+    id: recursos
+    attributes:
+      label: Recursos estimados
+      description: Servicios, cantidades, ambientes (Dev, QA, Prod)
+    validations:
+      required: false
+
+  - type: input
+    id: presupuesto
+    attributes:
+      label: Presupuesto estimado
+      description: Monto aproximado y moneda
+    validations:
+      required: false
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      description: Lista de criterios para dar por cerrada la solicitud
+      placeholder: "- [ ] Criterio 1\n- [ ] Criterio 2"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notas
+    attributes:
+      label: Notas adicionales
+      description: Dependencias, riesgos, referencias
+    validations:
+      required: false
